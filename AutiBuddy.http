@@ -1,0 +1,6 @@
+@AutiBuddy_HostAddress = http://localhost:5210
+
+GET {{AutiBuddy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
