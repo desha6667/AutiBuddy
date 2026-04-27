@@ -43,7 +43,10 @@ namespace AutiBuddy
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
+<<<<<<< HEAD
             app.Urls.Add("http://0.0.0.0:8080");
+=======
+>>>>>>> 94b30a204a186c3409c4297ccf05ac5249f520b2
 
             app.Run();
         }
